@@ -1,0 +1,18 @@
+plugin.tx_powermail.settings.setup {
+    finishers {
+        1 {
+            class = Taketool\MkPowermailextender\Finisher\TonlineFinisher
+
+            # optional: Add configuration for your PHP
+            config {
+                foo = bar
+
+                fooCObject = TEXT
+                fooCObject.value = do something with this text
+            }
+
+            # optional: If file will not be loaded from autoloader, add path and it will be called with require_once
+            #require = fileadmin/powermail/finisher/DoSomethingFinisher.php
+        }
+    }
+}
