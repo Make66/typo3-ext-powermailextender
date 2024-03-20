@@ -8,17 +8,18 @@
             "role": "Developer"
         }
     ],
+    "version": "2.0.0",
     "require": {
         "typo3/cms-core": "^10.4 || ^11.5"
     },
     "autoload": {
         "psr-4": {
-            "Taketool\\MkPowermailextender\\": "Classes"
+            "Taketool\\Powermailextender\\": "Classes"
         }
     },
     "replace": {
-        "taketool/mk-powermailextender": "self.version",
-        "typo3-ter/mk-powermailextender": "self.version"
+        "taketool/powermailextender": "self.version",
+        "typo3-ter/powermailextender": "self.version"
     },
     "extra": {
         "typo3/cms": {
