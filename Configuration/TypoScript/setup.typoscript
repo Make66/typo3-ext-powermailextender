@@ -1,7 +1,7 @@
 plugin.tx_powermail.settings.setup {
     finishers {
         1 {
-            class = \Taketool\Powermailextender\Finisher\TonlineFinisher
+            class = Taketool\Powermailextender\Finisher\TonlineFinisher
         }
     }
 }
