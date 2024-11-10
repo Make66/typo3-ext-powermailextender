@@ -1,15 +1,14 @@
 {
     "name": "taketool/powermailextender",
     "type": "typo3-cms-extension",
-    "description": "Add a finisher: If formuser is from t-online.de there is a problem sending the mail to receiver. So we send it manually again.",
+    "description": "Add a finisher: If formuser is from t-online.de there is a problem sending the mail to receiver. So let the receiver know about the message.",
     "authors": [
         {
             "name": "Martin Keller",
             "role": "Developer"
         }
     ],
-    "version": "2.0.0",
-    "require": {
+   "require": {
         "typo3/cms-core": "^10.4 || ^11.5"
     },
     "autoload": {
